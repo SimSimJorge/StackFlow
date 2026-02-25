@@ -1,0 +1,24 @@
+############
+# Concept
+############
+One stack
+A sequence of tokens
+An evaluation loop
+
+for each token:
+    execute(token)
+
+And execution means:
+    If token is a value → push to stack
+    If token is a word → transform the stack
+
+example:
+5 3 +
+returns 8
+so its (a b -- a+b)
+
+structural words
+dup (a -- a a)
+swap (a b -- b a)
+drop (a -- )
+over (a b -- a b a)

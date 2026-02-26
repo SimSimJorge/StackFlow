@@ -1,5 +1,5 @@
 5 dup printall
-5 drop printall
+drop printall
 1 2 swap printall
 1 2 over printall
 1 2 3 rot printall
